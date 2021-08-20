@@ -1,0 +1,35 @@
+.header{
+    background: linear-gradient(to top,#f4cbff,#ff7aec);
+    padding-bottom: 200px;
+}
+nav , .navbar-default , .navbar{
+    border-width: 0;
+    background-color: #00e7ff;
+}
+
+nav a{
+    color: black!important;
+    padding: 0!important;
+    margin: 14px 14px 14px 14px;
+    height: auto!important;
+}
+
+
+
+
+.navbar-header a:hover,.nav>li>a:hover{
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-color: #ff31af;
+    padding-bottom: inherit;
+    padding-left: inherit;
+}
+.nav>li>a:focus{
+    color: #ff31af!important;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+    border-color: #ff31af;
+    padding-bottom: inherit;
+    padding-left: inherit;
+    background: none!important;
+}

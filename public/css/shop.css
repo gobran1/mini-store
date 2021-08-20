@@ -1,0 +1,72 @@
+.price {
+    color: #5e5e5e;
+    font-weight: bold;
+}
+
+.thumbnail{
+    position : relative;
+}
+
+.thumbnail .btn {
+    /*padding: 5px 30px 5px 30px;*/
+    font-size: 0.9em;
+}
+
+p {
+    color: #5e5d5d;
+    margin: 0;
+    height: 150px;
+    overflow-y: hidden;
+}
+
+.thumbnail h3{
+    color: black;
+    font-weight: bold;
+}
+
+.thumbnail .thumbnail-img {
+    height: 200px;
+
+}
+
+.thumbnail img {
+    height: inherit;
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.sale-content {
+    position: relative;
+    bottom: 100px;
+}
+
+.qty-badge{
+    position: absolute;
+    z-index: 1;
+    width: 60px;
+    top : 10px;
+    right: 10px;
+
+}
+
+#total-price{
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    top: 50% ;
+    background-color: #ffeebc;
+    width: 10%;
+    transform : translateX(80%);
+    height: 40px;
+}
+#total-price>h4{
+    text-align: center;
+    overflow: hidden;
+}
+
+#total-price:hover{
+    transform : translateX(0%);
+    transition: all 500ms linear;
+}
